@@ -6,6 +6,6 @@ lng = random.uniform(-180, 180)
 x = "https://www.google.com/maps/search/?api=1&query={},{}".format(lat, lng)
 
 pywhatkit.sendwhatmsg_instantly(
-    phone_no="+905367028874",
+    phone_no="phone number",
     message=(f'{x}')
 )
